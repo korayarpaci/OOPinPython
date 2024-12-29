@@ -172,6 +172,7 @@ print(person) ## Çıktı : Kişi : KORAY
 ## Monkey sınıfı overriding methodu çağırıyor. Animal ve Monkey sınıflarında da aynı isme sahip methodlar mevcut.
 ## Ama çıktı olarak Animal Class ve Monkey Class geliyor.
 ## Böylelikle Monkey Class'ı, Animal Class'ındaki toString Methodunu geçersiz kılmış oluyor.
+## Overriding ile birlikte polimorfizmde yapılır
 # Örnek
 class Animal:  # Parent
     def toString(self):
