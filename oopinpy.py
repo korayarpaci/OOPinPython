@@ -121,6 +121,7 @@ movement_definition(fish) #Çıktı Yüzer
 ## Gereksiz detayları gizleyerek önemli bilgileri vurgular. abc modülü kullanılarak soyut sınıflar oluşturulabilir.
 ## ABC = Abstract Base Class
 ## Abstract metotunun kullanıldığı parent classtaki tüm metotları child classta kullanmak zorundasın.
+## Child classta parent classta olmayan metot tanımlanabilir.
 # Örnek
 
 from abc import ABC, abstractmethod
@@ -165,3 +166,23 @@ class Person:
         return f"Kişi {self.name}"
 person = Person("KORAY")
 print(person) ## Çıktı : Kişi : KORAY
+
+### 11 - Overriding ( Geçersiz Kılma )
+## Geçersiz kılma, üzerine yazma anlamına gelir
+# Örnek
+class Animal:  # Parent
+    def toString(self):
+        print("Animal Class")
+
+
+class Monkey(Animal):  # Child
+
+    def toString(self):
+        print("Monkey Class")
+
+
+animal1 = Animal()
+animal1.toString()
+
+monkey1 = Monkey()
+monkey1.toString()
