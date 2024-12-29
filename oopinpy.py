@@ -180,10 +180,8 @@ class Animal:  # Parent
 
 
 class Monkey(Animal):  # Child
-
     def toString(self):
         print("Monkey Class")
-
 
 animal1 = Animal()
 animal1.toString()
