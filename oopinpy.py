@@ -120,6 +120,7 @@ movement_definition(fish) #Çıktı Yüzer
 ### 8 - Soyutlama ( Abstraction )
 ## Gereksiz detayları gizleyerek önemli bilgileri vurgular. abc modülü kullanılarak soyut sınıflar oluşturulabilir.
 ## ABC = Abstract Base Class
+## Abstract metotunun kullanıldığı parent classtaki tüm metotları child classta kullanmak zorundasın.
 # Örnek
 
 from abc import ABC, abstractmethod
