@@ -86,6 +86,7 @@ print(acc.withdraw(50)) # Çıktı : Kalan Bakiye : 50
 
 ### 6 - Miras Alma ( Inheritance )
 ## Bir sınıfın  başka bir sınıfın attributelarını ve behaviorlarını devralması.
+## super().__init__() = Parent classın initini kullanılabilir hale getirir.
 # Örnek
 
 class Animal:
