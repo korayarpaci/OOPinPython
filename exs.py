@@ -302,3 +302,5 @@ print(f"Manager Ad: {manager.get_name()}")
 print(f"Engineer Ad: {engineer.get_name()}")
 print(f"Manager Maaş : {manager.maas_arttir()}")
 print(f"Engineer Maaş: {engineer.maas_arttir()}")
+
+###

@@ -19,6 +19,7 @@ print(car1.starting()) # Çıktı : Car's started
 
 ### 2 - Sınıf ( Class )
 ## nesneler için bir şablondur. Ortak attributelar ve behaviorlar bu şablon ile tanımlanır.
+## bir class çağırırken attribute belirtilmezse ( çağırılmazsa ) memorydeki adres çıktısını verir.
 # Örnek
 
 class Human:
@@ -65,7 +66,7 @@ print(calculate.sum(), calculate.subtract(), calculate.multiply(), calculate.div
 
 ### 5 - Kapsülleme ( Encapsulation )
 ## Bir sınıfın verilerini ve davranışlarını gizler. Pythonda _ veya __ ile özelliğin veya metodun erişimi sınırlandırılabilir.
-## " _ " Korunmuş ( Product ) : _ ile başlayan özellik veya metotlar, bir konvansiyon ( yazılı olmayan kural ) olarak yalnızca
+## " _ " Korunmuş ( Prodected ) : _ ile başlayan özellik veya metotlar, bir konvansiyon ( yazılı olmayan kural ) olarak yalnızca
 ## sınıfın kendisi ve alt sınıfları ( subclasses) tarafından kullanılmalıdır. Ancak teknik olarak erişimi engellenemez.
 ##" __ " Özel ( Private ) : __ ile başlayan özellik veya metotlar, sınıf dışından doğrudan erişimi engellemek için kullanılır.
 # Örnek
