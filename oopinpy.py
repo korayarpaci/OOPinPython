@@ -69,7 +69,7 @@ print(calculate.sum(), calculate.subtract(), calculate.multiply(), calculate.div
 ## " _ " Korunmuş ( Prodected ) : _ ile başlayan özellik veya metotlar, bir konvansiyon ( yazılı olmayan kural ) olarak yalnızca
 ## sınıfın kendisi ve alt sınıfları ( subclasses) tarafından kullanılmalıdır. Ancak teknik olarak erişimi engellenemez.
 ##" __ " Özel ( Private ) : __ ile başlayan özellik veya metotlar, sınıf dışından doğrudan erişimi engellemek için kullanılır.
-## Kapsülleme olduğu yerlerde get/set metotları kullanılır.
+## Kapsülleme ( Private/Prodected )  olduğu yerlerde get/set metotları kullanılır.
 # Örnek
 
 class BankAccount:
